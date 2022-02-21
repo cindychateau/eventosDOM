@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.container {
+    width: 500px;
+    border: 1px solid gray;
+    margin: 0 auto;
+}
+
+.card-header {
+    background-color: teal;
+    height: 80px;
+    border-radius: 3px;
+}
+
+.card-body {
+    height: 150px;
+    padding: 15px 30px;
+}
+
+.imgUsuario {
+    width: 50px;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.icono {
+    width: 10px;
+    margin-right: 10px;
+}
+
+.pEnlace {
+    margin-top: 10px;
+}
+
+.pEnlace a {
+    color: blue;
+}
+
+.h1Clase1 {
+    color: red;
+    text-decoration: line-through;
+}
+
+.h1Clase2 {
+    color: blue;
+    background-color: brown;
+    text-decoration: underline;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica de Tarjeta de Usuario</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="contenedor" class="container">
+        <div class="card-header">
+            <img src="img/user-circle.png" alt="Imagen de Usuario" class="imgUsuario">
+        </div>
+        <div class="card-header"></div>
+        <div class="card-body">
+            <h1 class="h1Clase1" onclick="eventoH1(this)">Cynthia Castillo</h1>
+            <h3>
+                <img id="imgNueva" onclick="cambiarImg()" src="img/map-marker.png" alt="Marcador de mapa" class="icono">
+                México
+            </h3>
+            <p onclick="cambiarText(this)">
+                Developer | Engineer | Problem Solver <br>
+                Master of shadows and the Internet
+            </p>
+            
+            <p class="pEnlace">
+                <a href="#" onclick="saluda()">
+                    <img src="img/gear.png" alt="Engrane de Enlace" class="icono">editar perfil
+                </a>
+                <a href="enlace"></a>
+            </p>
+            <button onclick="clickButton(this)" onmouseover="over(this)" onmouseout="out(this)">Hola 1</button>
+            <button onclick="clickButton(this)" onmouseover="over(this)" onmouseout="out(this)">Hola 2</button>
+            <button onclick="clickButton(this)" onmouseover="over(this)" onmouseout="out(this)">Hola 3</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
